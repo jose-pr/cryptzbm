@@ -1,0 +1,4 @@
+EFI:
+  Enabled: true
+Components:
+  Enabled: false
