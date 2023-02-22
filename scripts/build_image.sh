@@ -13,4 +13,4 @@ while read -r line; do
 done <"$_SCRIPTS_PATH/PKGS"
 
 cd $_ZBM_SRC
-"$_ZBM_SRC/releng/docker/image-build.sh" "${_BUILD_ARGS[@]}" "$@"
+"$_ZBM_SRC/releng/docker/image-build.sh" "${_BUILD_ARGS[@]}" "$@" "${CRYPTZBM_TAG:-cryptzbm}"
